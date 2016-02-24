@@ -30,6 +30,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="config\config.js" />
+    <Compile Include="config\env\development.js" />
+    <Compile Include="config\mongoose.js" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
